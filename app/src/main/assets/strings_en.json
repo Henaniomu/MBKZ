@@ -1,0 +1,349 @@
+{
+  "title": "Training App",
+  "select_language": "Change Language",
+  "guide": "📖 Guide",
+  "tests": "📝 Tests",
+  "simulator": "⚙️ Command Simulator",
+  "network_trainer": "🖥 Network Trainer",
+  "flashcards": [
+    {
+      "term": "Operating System",
+      "definition": "Software that manages computer hardware resources."
+    },
+    {
+      "term": "Process",
+      "definition": "A program in execution that has its own address space and resources."
+    },
+    {
+      "term": "Thread",
+      "definition": "A unit of execution within a process that shares resources."
+    },
+    {
+      "term": "Memory Management",
+      "definition": "Function of the OS that allocates and deallocates memory."
+    },
+    {
+      "term": "File System",
+      "definition": "Structure that organizes and provides access to files on disk."
+    },
+    {
+      "term": "OSI Model",
+      "definition": "Structured network communication model with 7 layers."
+    },
+    {
+      "term": "IP Address",
+      "definition": "A unique identifier for a device in a TCP/IP network."
+    },
+    {
+      "term": "DNS",
+      "definition": "System that converts domain names into IP addresses."
+    },
+    {
+      "term": "TCP",
+      "definition": "Transmission control protocol that ensures reliable connection."
+    },
+    {
+      "term": "UDP",
+      "definition": "Simple transport protocol without delivery control."
+    },
+    {
+      "term": "Virtualization",
+      "definition": "Technology for creating virtual environments for OS and apps."
+    },
+    {
+      "term": "SSH",
+      "definition": "Protocol for secure remote access to servers."
+    },
+    {
+      "term": "VPN",
+      "definition": "Virtual private network for secure Internet connection."
+    },
+    {
+      "term": "Firewall",
+      "definition": "Network security that controls incoming and outgoing traffic."
+    },
+    {
+      "term": "HTTP",
+      "definition": "Hypertext transfer protocol used in web networks."
+    },
+    {
+      "term": "HTTPS",
+      "definition": "Secure version of HTTP with SSL/TLS encryption."
+    },
+    {
+      "term": "MAC Address",
+      "definition": "Physical address of a network device."
+    },
+    {
+      "term": "DHCP",
+      "definition": "Protocol for automatic IP address configuration in a network."
+    },
+    {
+      "term": "NAT",
+      "definition": "Mechanism for translating IP addresses for Internet access."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the purpose of a subnet mask?",
+      "correct_answer": "To divide a network",
+      "options": [
+        "To assign an IP address",
+        "To encrypt data",
+        "To increase speed"
+      ]
+    },
+    {
+      "question": "Which protocol is used for secure web browsing?",
+      "correct_answer": "HTTPS",
+      "options": [
+        "HTTP",
+        "FTP",
+        "SMTP"
+      ]
+    },
+    {
+      "question": "What does DNS stand for?",
+      "correct_answer": "Domain Name System",
+      "options": [
+        "Data Network Service",
+        "Digital Numbering Structure",
+        "Distributed Node Synchronization"
+      ]
+    },
+    {
+      "question": "Which device connects multiple networks together?",
+      "correct_answer": "Router",
+      "options": [
+        "Switch",
+        "Hub",
+        "Repeater"
+      ]
+    },
+    {
+      "question": "What is the standard port for HTTP?",
+      "correct_answer": "80",
+      "options": [
+        "443",
+        "21",
+        "25"
+      ]
+    },
+    {
+      "question": "Which layer of the OSI model handles error detection and correction?",
+      "correct_answer": "Data Link",
+      "options": [
+        "Network",
+        "Transport",
+        "Session"
+      ]
+    },
+    {
+      "question": "What is the function of ARP?",
+      "correct_answer": "Resolve IP to MAC",
+      "options": [
+        "Resolve MAC to IP",
+        "Encrypt traffic",
+        "Assign IP addresses"
+      ]
+    },
+    {
+      "question": "Which protocol is used to send emails?",
+      "correct_answer": "SMTP",
+      "options": [
+        "POP3",
+        "IMAP",
+        "FTP"
+      ]
+    },
+    {
+      "question": "What is an example of a private IP address?",
+      "correct_answer": "192.168.1.1",
+      "options": [
+        "8.8.8.8",
+        "172.67.216.144",
+        "200.50.100.25"
+      ]
+    },
+    {
+      "question": "Which protocol is used for remote login?",
+      "correct_answer": "SSH",
+      "options": [
+        "FTP",
+        "Telnet",
+        "HTTP"
+      ]
+    },
+    {
+      "question": "What does DHCP do?",
+      "correct_answer": "Assigns IP addresses dynamically",
+      "options": [
+        "Translates domain names",
+        "Encrypts network traffic",
+        "Routes packets"
+      ]
+    },
+    {
+      "question": "Which device is used to segment a network into multiple collision domains?",
+      "correct_answer": "Switch",
+      "options": [
+        "Hub",
+        "Router",
+        "Repeater"
+      ]
+    },
+    {
+      "question": "Which protocol is responsible for assigning IP addresses?",
+      "correct_answer": "DHCP",
+      "options": [
+        "ARP",
+        "RIP",
+        "BGP"
+      ]
+    },
+    {
+      "question": "What is the function of NAT?",
+      "correct_answer": "Translates private IPs to public IPs",
+      "options": [
+        "Assigns MAC addresses",
+        "Encrypts traffic",
+        "Filters packets"
+      ]
+    },
+    {
+      "question": "What type of attack involves intercepting and modifying communications?",
+      "correct_answer": "Man-in-the-Middle",
+      "options": [
+        "DDoS",
+        "Phishing",
+        "Brute-force"
+      ]
+    },
+    {
+      "question": "What is the default subnet mask for a Class C network?",
+      "correct_answer": "255.255.255.0",
+      "options": [
+        "255.0.0.0",
+        "255.255.0.0",
+        "255.255.255.255"
+      ]
+    },
+    {
+      "question": "Which protocol is used to securely transfer files?",
+      "correct_answer": "SFTP",
+      "options": [
+        "FTP",
+        "TFTP",
+        "SMTP"
+      ]
+    },
+    {
+      "question": "Which layer of the OSI model is responsible for logical addressing?",
+      "correct_answer": "Network",
+      "options": [
+        "Data Link",
+        "Transport",
+        "Session"
+      ]
+    },
+    {
+      "question": "Which command is used to check network connectivity?",
+      "correct_answer": "ping",
+      "options": [
+        "tracert",
+        "ipconfig",
+        "nslookup"
+      ]
+    },
+    {
+      "question": "What is the primary purpose of a firewall?",
+      "correct_answer": "Filter network traffic",
+      "options": [
+        "Store logs",
+        "Optimize performance",
+        "Assign IP addresses"
+      ]
+    },
+    {
+      "question": "What is the purpose of VLANs?",
+      "correct_answer": "Segregate network traffic",
+      "options": [
+        "Encrypt data",
+        "Increase bandwidth",
+        "Assign IPs"
+      ]
+    },
+    {
+      "question": "What is a function of ICMP?",
+      "correct_answer": "Send error messages",
+      "options": [
+        "Assign IPs",
+        "Encrypt traffic",
+        "Establish connections"
+      ]
+    },
+    {
+      "question": "Which protocol is used to transfer web pages?",
+      "correct_answer": "HTTP",
+      "options": [
+        "FTP",
+        "SSH",
+        "SNMP"
+      ]
+    },
+    {
+      "question": "What is the function of a proxy server?",
+      "correct_answer": "Acts as an intermediary",
+      "options": [
+        "Assigns IPs",
+        "Encrypts traffic",
+        "Filters emails"
+      ]
+    },
+    {
+      "question": "What type of network is limited to a small geographic area?",
+      "correct_answer": "LAN",
+      "options": [
+        "WAN",
+        "MAN",
+        "VPN"
+      ]
+    },
+    {
+      "question": "What does SSL/TLS provide?",
+      "correct_answer": "Encryption",
+      "options": [
+        "Authentication",
+        "Routing",
+        "Compression"
+      ]
+    },
+    {
+      "question": "Which type of attack floods a system with traffic to disrupt service?",
+      "correct_answer": "DDoS",
+      "options": [
+        "Phishing",
+        "MITM",
+        "Ransomware"
+      ]
+    },
+    {
+      "question": "Which protocol maps domain names to IP addresses?",
+      "correct_answer": "DNS",
+      "options": [
+        "ARP",
+        "DHCP",
+        "ICMP"
+      ]
+    },
+    {
+      "question": "What is the primary role of an IDS?",
+      "correct_answer": "Detect network intrusions",
+      "options": [
+        "Assign IPs",
+        "Encrypt data",
+        "Route packets"
+      ]
+    }
+  ]
+}

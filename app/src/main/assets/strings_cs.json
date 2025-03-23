@@ -1,0 +1,357 @@
+{
+  "title": "Výuková aplikace",
+  "select_language": "Změnit jazyk",
+  "guide": "📖 Příručka",
+  "tests": "📝 Testy",
+  "simulator": "⚙️ Simulátor příkazů",
+  "network_trainer": "🖥 Síťový trenér",
+  "select_question_count": "Vyber počet otázek",
+  "test_settings": "Nastavení testu",
+  "select_option_count": "Vyber počet odpovědí",
+  "start_test": "Spustit test",
+  "cancel": "Zrušit",
+  "back_to_menu": "Vrátit se do menu",
+  "test_result": "Výsledek testu",
+  "your_score": "Váš výsledek",
+  "flashcards": [
+    {
+      "term": "Operační systém",
+      "definition": "Software, který spravuje hardwarové prostředky počítače."
+    },
+    {
+      "term": "Proces",
+      "definition": "Program ve spuštěném stavu, který má vlastní adresní prostor a zdroje."
+    },
+    {
+      "term": "Vlákno",
+      "definition": "Jednotka provádění v procesu, která sdílí jeho zdroje."
+    },
+    {
+      "term": "Správa paměti",
+      "definition": "Funkce OS, která přiděluje a uvolňuje paměť."
+    },
+    {
+      "term": "Souborový systém",
+      "definition": "Struktura organizující a umožňující přístup k souborům na disku."
+    },
+    {
+      "term": "OSI Model",
+      "definition": "Strukturovaný model síťové komunikace se 7 vrstvami."
+    },
+    {
+      "term": "IP Adresa",
+      "definition": "Jedinečný identifikátor zařízení v síti TCP/IP."
+    },
+    {
+      "term": "DNS",
+      "definition": "Systém převádějící doménová jména na IP adresy."
+    },
+    {
+      "term": "TCP",
+      "definition": "Protokol pro spolehlivé spojení."
+    },
+    {
+      "term": "UDP",
+      "definition": "Jednoduchý transportní protokol bez kontroly doručení."
+    },
+    {
+      "term": "Virtualizace",
+      "definition": "Technologie vytváření virtuálních prostředí pro OS a aplikace."
+    },
+    {
+      "term": "SSH",
+      "definition": "Protokol pro bezpečný vzdálený přístup k serverům."
+    },
+    {
+      "term": "VPN",
+      "definition": "Virtuální privátní síť pro bezpečné připojení k internetu."
+    },
+    {
+      "term": "Firewall",
+      "definition": "Síťová bezpečnost, která řídí příchozí a odchozí provoz."
+    },
+    {
+      "term": "HTTP",
+      "definition": "Protokol přenosu hypertextu používaný ve webových sítích."
+    },
+    {
+      "term": "HTTPS",
+      "definition": "Zabezpečená verze HTTP se šifrováním SSL/TLS."
+    },
+    {
+      "term": "MAC Adresa",
+      "definition": "Fyzická adresa síťového zařízení."
+    },
+    {
+      "term": "DHCP",
+      "definition": "Protokol pro automatickou konfiguraci IP adres v síti."
+    },
+    {
+      "term": "NAT",
+      "definition": "Mechanismus pro převod IP adres pro přístup k internetu."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Jaký je účel masky podsítě?",
+      "correct_answer": "Rozdělit síť",
+      "options": [
+        "Přiřadit IP adresu",
+        "Šifrovat data",
+        "Zvýšit rychlost"
+      ]
+    },
+    {
+      "question": "Který protokol se používá pro bezpečné prohlížení webu?",
+      "correct_answer": "HTTPS",
+      "options": [
+        "HTTP",
+        "FTP",
+        "SMTP"
+      ]
+    },
+    {
+      "question": "Co znamená zkratka DNS?",
+      "correct_answer": "Systém doménových jmen",
+      "options": [
+        "Síťová datová služba",
+        "Digitální číslovací struktura",
+        "Distribuovaná synchronizace uzlů"
+      ]
+    },
+    {
+      "question": "Které zařízení propojuje více sítí?",
+      "correct_answer": "Router",
+      "options": [
+        "Switch",
+        "Hub",
+        "Repeater"
+      ]
+    },
+    {
+      "question": "Jaký je standardní port pro HTTP?",
+      "correct_answer": "80",
+      "options": [
+        "443",
+        "21",
+        "25"
+      ]
+    },
+    {
+      "question": "Která vrstva OSI modelu zajišťuje detekci a opravu chyb?",
+      "correct_answer": "Linková",
+      "options": [
+        "Síťová",
+        "Transportní",
+        "Relační"
+      ]
+    },
+    {
+      "question": "Jaká je funkce ARP?",
+      "correct_answer": "Převádí IP na MAC adresu",
+      "options": [
+        "Převádí MAC na IP",
+        "Šifruje provoz",
+        "Přiděluje IP adresy"
+      ]
+    },
+    {
+      "question": "Který protokol se používá k odesílání e-mailů?",
+      "correct_answer": "SMTP",
+      "options": [
+        "POP3",
+        "IMAP",
+        "FTP"
+      ]
+    },
+    {
+      "question": "Která z následujících IP adres je privátní?",
+      "correct_answer": "192.168.1.1",
+      "options": [
+        "8.8.8.8",
+        "172.67.216.144",
+        "200.50.100.25"
+      ]
+    },
+    {
+      "question": "Který protokol se používá pro vzdálené přihlášení?",
+      "correct_answer": "SSH",
+      "options": [
+        "FTP",
+        "Telnet",
+        "HTTP"
+      ]
+    },
+    {
+      "question": "Jaký je účel DHCP?",
+      "correct_answer": "Dynamické přidělování IP adres",
+      "options": [
+        "Překlad doménových jmen",
+        "Šifrování provozu",
+        "Směrování paketů"
+      ]
+    },
+    {
+      "question": "Které zařízení rozděluje síť na více kolizních domén?",
+      "correct_answer": "Switch",
+      "options": [
+        "Hub",
+        "Router",
+        "Repeater"
+      ]
+    },
+    {
+      "question": "Který protokol přiděluje IP adresy?",
+      "correct_answer": "DHCP",
+      "options": [
+        "ARP",
+        "RIP",
+        "BGP"
+      ]
+    },
+    {
+      "question": "Jaká je funkce NAT?",
+      "correct_answer": "Překládá privátní IP na veřejné",
+      "options": [
+        "Přiděluje MAC adresy",
+        "Šifruje provoz",
+        "Filtrování paketů"
+      ]
+    },
+    {
+      "question": "Jaký typ útoku zahrnuje odposlech a úpravu komunikace?",
+      "correct_answer": "Man-in-the-Middle",
+      "options": [
+        "DDoS",
+        "Phishing",
+        "Brute-force"
+      ]
+    },
+    {
+      "question": "Jaká je výchozí maska podsítě pro síť třídy C?",
+      "correct_answer": "255.255.255.0",
+      "options": [
+        "255.0.0.0",
+        "255.255.0.0",
+        "255.255.255.255"
+      ]
+    },
+    {
+      "question": "Který protokol se používá pro bezpečný přenos souborů?",
+      "correct_answer": "SFTP",
+      "options": [
+        "FTP",
+        "TFTP",
+        "SMTP"
+      ]
+    },
+    {
+      "question": "Která vrstva OSI modelu odpovídá za logické adresování?",
+      "correct_answer": "Síťová",
+      "options": [
+        "Linková",
+        "Transportní",
+        "Relační"
+      ]
+    },
+    {
+      "question": "Který příkaz se používá k ověření síťového připojení?",
+      "correct_answer": "ping",
+      "options": [
+        "tracert",
+        "ipconfig",
+        "nslookup"
+      ]
+    },
+    {
+      "question": "Jaký je hlavní účel firewallu?",
+      "correct_answer": "Filtrování síťového provozu",
+      "options": [
+        "Ukládání logů",
+        "Optimalizace výkonu",
+        "Přidělování IP adres"
+      ]
+    },
+    {
+      "question": "Jaký je účel VLAN?",
+      "correct_answer": "Oddělení síťového provozu",
+      "options": [
+        "Šifrování dat",
+        "Zvýšení šířky pásma",
+        "Přidělování IP"
+      ]
+    },
+    {
+      "question": "Jaká je funkce ICMP?",
+      "correct_answer": "Odesílání chybových zpráv",
+      "options": [
+        "Přidělování IP",
+        "Šifrování provozu",
+        "Navazování spojení"
+      ]
+    },
+    {
+      "question": "Který protokol se používá k přenosu webových stránek?",
+      "correct_answer": "HTTP",
+      "options": [
+        "FTP",
+        "SSH",
+        "SNMP"
+      ]
+    },
+    {
+      "question": "Jaká je funkce proxy serveru?",
+      "correct_answer": "Působí jako prostředník",
+      "options": [
+        "Přiděluje IP",
+        "Šifruje provoz",
+        "Filtruje e-maily"
+      ]
+    },
+    {
+      "question": "Jaký typ sítě je omezen na malou geografickou oblast?",
+      "correct_answer": "LAN",
+      "options": [
+        "WAN",
+        "MAN",
+        "VPN"
+      ]
+    },
+    {
+      "question": "Co poskytuje SSL/TLS?",
+      "correct_answer": "Šifrování",
+      "options": [
+        "Ověřování",
+        "Směrování",
+        "Komprese"
+      ]
+    },
+    {
+      "question": "Který typ útoku zahltí systém provozem, aby narušil jeho činnost?",
+      "correct_answer": "DDoS",
+      "options": [
+        "Phishing",
+        "MITM",
+        "Ransomware"
+      ]
+    },
+    {
+      "question": "Který protokol mapuje doménová jména na IP adresy?",
+      "correct_answer": "DNS",
+      "options": [
+        "ARP",
+        "DHCP",
+        "ICMP"
+      ]
+    },
+    {
+      "question": "Jaká je hlavní role systému detekce narušení (IDS)?",
+      "correct_answer": "Detekuje síťové narušení",
+      "options": [
+        "Přidělování IP",
+        "Šifrování dat",
+        "Směrování paketů"
+      ]
+    }
+  ]
+}
