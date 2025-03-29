@@ -1,18 +1,15 @@
 package com.example.mbkz.screens
 
 import android.content.Context
-import androidx.compose.animation.core.*
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.scale
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.compose.ui.zIndex
 import androidx.navigation.NavController
 import com.example.mbkz.LanguageManager
 import kotlinx.coroutines.delay
@@ -125,7 +122,7 @@ fun StartTestScreen(
                                 AnswerState.INCORRECT
                             }
                         },
-                        enabled = !isInteractionBlocked, // блокируем, пока идёт анимация
+                        enabled = !isInteractionBlocked,
                         modifier = Modifier
                             .fillMaxWidth()
                             .padding(8.dp)
@@ -144,9 +141,12 @@ fun TestSettingsDialog(
     onStartTest: (Int, Int) -> Unit,
     translations: Map<String, String>
 ) {
-    val maxQuestions = remember { mutableStateOf(30) }
-    val questionCount = remember { mutableStateOf(10) }
-    val optionCount = remember { mutableStateOf(4) }
+
+    val allQuestions = remember { loadTestQuestions(translations) }
+    val totalAvailableQuestions = allQuestions.size.coerceAtLeast(10)
+
+    var questionCount by remember { mutableStateOf(10.coerceAtMost(totalAvailableQuestions)) }
+    var optionCount by remember { mutableStateOf(4) }
 
     AlertDialog(
         onDismissRequest = onDismiss,
@@ -154,22 +154,30 @@ fun TestSettingsDialog(
         text = {
             Column {
                 Text(text = translations["select_question_count"] ?: "Select number of questions")
+                Text(
+                    text = "$questionCount / $totalAvailableQuestions",
+                    color = Color.Gray,
+                    fontSize = 14.sp,
+                    modifier = Modifier.padding(bottom = 4.dp)
+                )
                 Slider(
-                    value = questionCount.value.toFloat(),
-                    onValueChange = { questionCount.value = it.toInt() },
-                    valueRange = 10f..maxQuestions.value.toFloat(),
-                    steps = maxQuestions.value - 10
+                    value = questionCount.toFloat(),
+                    onValueChange = { questionCount = it.toInt() },
+                    valueRange = 10f..totalAvailableQuestions.toFloat(),
+                    steps = totalAvailableQuestions - 10
                 )
 
                 Spacer(modifier = Modifier.height(16.dp))
 
                 Text(text = translations["select_option_count"] ?: "Select number of options")
-                Row {
+                Row(
+                    horizontalArrangement = Arrangement.spacedBy(8.dp)
+                ) {
                     (2..4).forEach { count ->
                         Button(
-                            onClick = { optionCount.value = count },
+                            onClick = { optionCount = count },
                             colors = ButtonDefaults.buttonColors(
-                                containerColor = if (optionCount.value == count) Color.Blue else Color.Gray
+                                containerColor = if (optionCount == count) Color.Blue else Color.Gray
                             )
                         ) {
                             Text(text = "$count")
@@ -180,7 +188,7 @@ fun TestSettingsDialog(
         },
         confirmButton = {
             Button(
-                onClick = { onStartTest(questionCount.value, optionCount.value) }
+                onClick = { onStartTest(questionCount, optionCount) }
             ) {
                 Text(text = translations["start_test"] ?: "Start Test")
             }

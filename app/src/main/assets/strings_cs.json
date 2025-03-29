@@ -3,6 +3,10 @@
   "select_language": "Změnit jazyk",
   "guide": "📖 Příručka",
   "tests": "📝 Testy",
+  "hard_text_on": "Označit jako náročné",
+  "hard_text_off": "Odebrat z náročných",
+  "hard_text_pop_off": "Odebráno z náročných",
+  "hard_text_pop_on": "Označeno jako náročné",
   "simulator": "⚙️ Simulátor příkazů",
   "network_trainer": "🖥 Síťový trenér",
   "select_question_count": "Vyber počet otázek",
@@ -15,78 +19,97 @@
   "your_score": "Váš výsledek",
   "flashcards": [
     {
+      "hard_term": false,
       "term": "Operační systém",
       "definition": "Software, který spravuje hardwarové prostředky počítače."
     },
     {
+      "hard_term": false,
       "term": "Proces",
       "definition": "Program ve spuštěném stavu, který má vlastní adresní prostor a zdroje."
     },
     {
+      "hard_term": false,
       "term": "Vlákno",
       "definition": "Jednotka provádění v procesu, která sdílí jeho zdroje."
     },
     {
+      "hard_term": false,
       "term": "Správa paměti",
       "definition": "Funkce OS, která přiděluje a uvolňuje paměť."
     },
     {
+      "hard_term": false,
       "term": "Souborový systém",
       "definition": "Struktura organizující a umožňující přístup k souborům na disku."
     },
     {
+      "hard_term": false,
       "term": "OSI Model",
       "definition": "Strukturovaný model síťové komunikace se 7 vrstvami."
     },
     {
+      "hard_term": false,
       "term": "IP Adresa",
       "definition": "Jedinečný identifikátor zařízení v síti TCP/IP."
     },
     {
+      "hard_term": false,
       "term": "DNS",
       "definition": "Systém převádějící doménová jména na IP adresy."
     },
     {
+      "hard_term": false,
       "term": "TCP",
       "definition": "Protokol pro spolehlivé spojení."
     },
     {
+      "hard_term": false,
       "term": "UDP",
       "definition": "Jednoduchý transportní protokol bez kontroly doručení."
     },
     {
+      "hard_term": false,
       "term": "Virtualizace",
       "definition": "Technologie vytváření virtuálních prostředí pro OS a aplikace."
     },
     {
+      "hard_term": false,
       "term": "SSH",
       "definition": "Protokol pro bezpečný vzdálený přístup k serverům."
     },
     {
+      "hard_term": false,
       "term": "VPN",
       "definition": "Virtuální privátní síť pro bezpečné připojení k internetu."
     },
     {
+      "hard_term": false,
       "term": "Firewall",
       "definition": "Síťová bezpečnost, která řídí příchozí a odchozí provoz."
     },
     {
+      "hard_term": false,
       "term": "HTTP",
       "definition": "Protokol přenosu hypertextu používaný ve webových sítích."
     },
     {
+      "hard_term": false,
       "term": "HTTPS",
       "definition": "Zabezpečená verze HTTP se šifrováním SSL/TLS."
     },
     {
+      "hard_term": false,
       "term": "MAC Adresa",
       "definition": "Fyzická adresa síťového zařízení."
     },
     {
+      "hard_term": false,
       "term": "DHCP",
       "definition": "Protokol pro automatickou konfiguraci IP adres v síti."
     },
     {
+      "hard_term": false,
       "term": "NAT",
       "definition": "Mechanismus pro převod IP adres pro přístup k internetu."
     }

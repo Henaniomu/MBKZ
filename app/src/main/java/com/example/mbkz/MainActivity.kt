@@ -21,8 +21,6 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.mbkz.screens.GuideScreen
-import com.example.mbkz.screens.NetworkTrainerScreen
-import com.example.mbkz.screens.SimulatorScreen
 import com.example.mbkz.screens.TestScreen
 import com.example.mbkz.ui.theme.MBKZTheme
 
@@ -71,8 +69,6 @@ fun AppNavigation(translations: Map<String, String>, context: Context, onLanguag
         composable("main") { MainMenuScreen(translations, navController, onLanguageChange) }
         composable("guide") { GuideScreen(context) }
         composable("tests") { TestScreen(navController, context) }
-        composable("simulator") { SimulatorScreen() }
-        composable("network") { NetworkTrainerScreen() }
     }
 }
 
@@ -87,7 +83,7 @@ fun MainMenuScreen(translations: Map<String, String>, navController: NavControll
         )
 
         Scaffold(
-            containerColor = androidx.compose.ui.graphics.Color.Transparent
+            containerColor = Color.Transparent
         ) { padding ->
             Column(
                 modifier = Modifier
@@ -97,14 +93,11 @@ fun MainMenuScreen(translations: Map<String, String>, navController: NavControll
                 verticalArrangement = Arrangement.Center,
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
-//                Text(translations["title"] ?: "App", fontSize = 24.sp, color = Color.Magenta)
 
                 Spacer(modifier = Modifier.height(24.dp))
 
                 MenuButton(translations["guide"] ?: "Guide") { navController.navigate("guide") }
                 MenuButton(translations["tests"] ?: "Tests") { navController.navigate("tests") }
-//                MenuButton(translations["simulator"] ?: "Simulator") { navController.navigate("simulator") }
-//                MenuButton(translations["network_trainer"] ?: "Network Trainer") { navController.navigate("network") }
 
                 Spacer(modifier = Modifier.height(32.dp))
 

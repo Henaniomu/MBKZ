@@ -3,82 +3,105 @@
   "select_language": "Change Language",
   "guide": "📖 Guide",
   "tests": "📝 Tests",
+  "hard_text_on": "Mark as Difficult",
+  "hard_text_off": "Remove from Difficult",
+  "hard_text_pop_off": "Removed from Difficult",
+  "hard_text_pop_on": "Marked as Difficult",
   "simulator": "⚙️ Command Simulator",
   "network_trainer": "🖥 Network Trainer",
   "flashcards": [
     {
+      "hard_term": false,
       "term": "Operating System",
       "definition": "Software that manages computer hardware resources."
     },
     {
+      "hard_term": false,
       "term": "Process",
       "definition": "A program in execution that has its own address space and resources."
     },
     {
+      "hard_term": false,
       "term": "Thread",
       "definition": "A unit of execution within a process that shares resources."
     },
     {
+      "hard_term": false,
       "term": "Memory Management",
       "definition": "Function of the OS that allocates and deallocates memory."
     },
     {
+      "hard_term": false,
       "term": "File System",
       "definition": "Structure that organizes and provides access to files on disk."
     },
     {
+      "hard_term": false,
       "term": "OSI Model",
       "definition": "Structured network communication model with 7 layers."
     },
     {
+      "hard_term": false,
       "term": "IP Address",
       "definition": "A unique identifier for a device in a TCP/IP network."
     },
     {
+      "hard_term": false,
       "term": "DNS",
       "definition": "System that converts domain names into IP addresses."
     },
     {
+      "hard_term": false,
       "term": "TCP",
       "definition": "Transmission control protocol that ensures reliable connection."
     },
     {
+      "hard_term": false,
       "term": "UDP",
       "definition": "Simple transport protocol without delivery control."
     },
     {
+      "hard_term": false,
       "term": "Virtualization",
       "definition": "Technology for creating virtual environments for OS and apps."
     },
     {
+      "hard_term": false,
       "term": "SSH",
       "definition": "Protocol for secure remote access to servers."
     },
     {
+      "hard_term": false,
       "term": "VPN",
       "definition": "Virtual private network for secure Internet connection."
     },
     {
+      "hard_term": false,
       "term": "Firewall",
       "definition": "Network security that controls incoming and outgoing traffic."
     },
     {
+      "hard_term": false,
       "term": "HTTP",
       "definition": "Hypertext transfer protocol used in web networks."
     },
     {
+      "hard_term": false,
       "term": "HTTPS",
       "definition": "Secure version of HTTP with SSL/TLS encryption."
     },
     {
+      "hard_term": false,
       "term": "MAC Address",
       "definition": "Physical address of a network device."
     },
     {
+      "hard_term": false,
       "term": "DHCP",
       "definition": "Protocol for automatic IP address configuration in a network."
     },
     {
+      "hard_term": false,
       "term": "NAT",
       "definition": "Mechanism for translating IP addresses for Internet access."
     }
