@@ -106,9 +106,12 @@ fun StartTestScreen(
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
                 val question = selectedQuestions.value[currentQuestionIndex]
-                val options = remember(currentQuestionIndex) {
-                    (question["options"] as List<*> + question["correct_answer"]).shuffled().take(optionCount)
-                }
+                val rawOptions = question["options"] as List<*>
+                val correctAnswer = question["correct_answer"] as String
+
+                val incorrectOptions = rawOptions.shuffled().take(optionCount - 1)
+
+                val options = (incorrectOptions + correctAnswer).shuffled()
 
                 Text(text = question["question"] as String, fontSize = 20.sp, color = Color.White)
 
